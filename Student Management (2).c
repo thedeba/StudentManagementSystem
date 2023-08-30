@@ -1,8 +1,8 @@
 #include <stdio.h>
-// #include<conio.h>
+#include<conio.h>
 #include <stdlib.h>
-// #include<windows.h>
-// #include<time.h>
+#include<windows.h>
+#include<time.h>
 #include <string.h>
 void front_page();  /// For Front Page
 void title_bar();   /// For Title
@@ -49,7 +49,7 @@ void title_bar() /// Title Bar of this project
 void front_page() /// This is for front page of this project
 {
     int proccess;
-    // date();
+    date();
     title_bar();
     printf("\n\n\n\n\n\n");
     printf("\t  CREATED BY  :   Md. Rafit Mostofa,Debashish roy");
@@ -72,7 +72,7 @@ void front_page() /// This is for front page of this project
 void login() /// Its for login process
 {
     system("cls");
-    // date();
+    date();
     char username[30];
     char password[30];
     int val = 1;
